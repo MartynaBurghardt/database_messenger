@@ -1,0 +1,2591 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/Users/martynaburghardt/.local/bin/uname"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/uname"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/uname"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/uname"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Darwin - 25.0.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/Users/martynaburghardt/.local/bin/gmake"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/gmake"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/gmake"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/gmake"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/opt/homebrew/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/Users/martynaburghardt/.local/bin/make"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/make"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/make"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/make"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/make"
+      - "/opt/homebrew/bin/make"
+      - "/opt/homebrew/sbin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/Users/martynaburghardt/.local/bin/c++"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/c++"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/c++"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/c++"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/c++"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/c++"
+      - "/opt/homebrew/bin/c++"
+      - "/opt/homebrew/sbin/c++"
+      - "/usr/local/bin/c++"
+      - "/System/Cryptexes/App/usr/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/martynaburghardt/chat/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 428 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 243 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 165 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 166 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 167 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 244 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/Users/martynaburghardt/.local/bin/objcopy"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/objcopy"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/objcopy"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/objcopy"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/objcopy"
+      - "/opt/homebrew/bin/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/Users/martynaburghardt/.local/bin/readelf"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/readelf"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/readelf"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/readelf"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/readelf"
+      - "/opt/homebrew/bin/readelf"
+      - "/opt/homebrew/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/Users/martynaburghardt/.local/bin/dlltool"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/dlltool"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/dlltool"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/dlltool"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/Users/martynaburghardt/.local/bin/addr2line"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/addr2line"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/addr2line"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/addr2line"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/addr2line"
+      - "/opt/homebrew/bin/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/Users/martynaburghardt/.local/bin/tapi"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/tapi"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/tapi"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/tapi"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/Users/martynaburghardt/.local/bin/install_name_tool"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/install_name_tool"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/install_name_tool"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/install_name_tool"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/martynaburghardt/chat/build/CMakeFiles/CMakeScratch/TryCompile-0Ylnuj"
+      binary: "/Users/martynaburghardt/chat/build/CMakeFiles/CMakeScratch/TryCompile-0Ylnuj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/martynaburghardt/chat/build/CMakeFiles/CMakeScratch/TryCompile-0Ylnuj'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_590c2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_590c2.dir/build.make CMakeFiles/cmTC_590c2.dir/build
+        Building CXX object CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: arm64-apple-darwin25.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/martynaburghardt/chat/build/CMakeFiles/CMakeScratch/TryCompile-0Ylnuj -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/martynaburghardt/chat/build/CMakeFiles/CMakeScratch/TryCompile-0Ylnuj -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin25.0.0
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_590c2
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_590c2.dir/link.txt --verbose=1
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: arm64-apple-darwin25.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.3.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_590c2 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:29 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_590c2
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/martynaburghardt/chat/build/CMakeFiles/CMakeScratch/TryCompile-0Ylnuj']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_590c2/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_590c2.dir/build.make CMakeFiles/cmTC_590c2.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: arm64-apple-darwin25.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/martynaburghardt/chat/build/CMakeFiles/CMakeScratch/TryCompile-0Ylnuj -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/martynaburghardt/chat/build/CMakeFiles/CMakeScratch/TryCompile-0Ylnuj -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin25.0.0]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_590c2]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_590c2.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: arm64-apple-darwin25.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.3.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_590c2 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.3.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_590c2] ==> ignore
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_590c2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld  PROJECT:ld64-857.1
+      BUILD 23:13:29 May  7 2023
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 14.0.3, (clang-1403.0.22.14.1) (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 14.0.3 (tapi-1403.0.5.1)
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/lib/cmake/Boost-1.90.0/BoostConfig.cmake:141 (find_package)"
+      - "/opt/homebrew/lib/cmake/Boost-1.90.0/BoostConfig.cmake:215 (boost_find_component)"
+      - "CMakeLists.txt:9 (find_package)"
+    name: "boost_headers"
+    configs:
+      -
+        filename: "boost_headersConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_headers-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.90.0"
+      version_complete: "1.90.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/opt/homebrew/lib/cmake"
+      names:
+        - "boost_headers"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/martynaburghardt/chat/build/CMakeFiles/pkgRedirects/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/martynaburghardt/chat/build/CMakeFiles/pkgRedirects/boost_headers-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_headers-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_headers-1.90.0/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/boost_headers-1.90.0/boost_headers-config.cmake"
+      mode: "config"
+      version: "1.90.0"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:9 (find_package)"
+    name: "Boost"
+    configs:
+      -
+        filename: "BoostConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Boost"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/martynaburghardt/chat/build/CMakeFiles/pkgRedirects/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/martynaburghardt/chat/build/CMakeFiles/pkgRedirects/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/martynaburghardt/.local/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/martynaburghardt/.local/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Python.framework/Versions/3.13/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Python.framework/Versions/3.13/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_wserialization-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_wserialization-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_wave-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_wave-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_url-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_url-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_unit_test_framework-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_unit_test_framework-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_type_erasure-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_type_erasure-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_timer-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_timer-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_thread-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_thread-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_test_exec_monitor-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_test_exec_monitor-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_stacktrace_noop-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_stacktrace_noop-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_stacktrace_basic-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_stacktrace_basic-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_stacktrace_addr2line-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_stacktrace_addr2line-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_serialization-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_serialization-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_regex-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_regex-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_random-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_random-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_program_options-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_program_options-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_process-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_process-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_prg_exec_monitor-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_prg_exec_monitor-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_nowide-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_nowide-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_tr1l-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_tr1l-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_tr1f-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_tr1f-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_tr1-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_tr1-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_c99l-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_c99l-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_c99f-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_c99f-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_c99-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math_c99-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_math-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_log_setup-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_log_setup-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_log-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_log-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_locale-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_locale-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_json-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_json-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_iostreams-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_iostreams-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_headers-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_headers-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_graph_parallel-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_graph_parallel-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_graph-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_graph-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_filesystem-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_filesystem-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_fiber-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_fiber-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_exception-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_exception-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_date_time-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_date_time-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_coroutine-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_coroutine-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_contract-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_contract-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_context-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_context-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_container-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_container-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_chrono-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_chrono-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_charconv-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_charconv-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_atomic-1.90.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/boost_atomic-1.90.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Boost-1.90.0/BoostConfig.cmake"
+      mode: "config"
+      version: "1.90.0"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenSSL.cmake:295 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/sw/bin/"
+      - "/sw/sbin/"
+      - "/sw/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/local/"
+      - "/Applications/"
+    searched_directories:
+      - "/Users/martynaburghardt/.local/bin/pkg-config"
+      - "/Users/martynaburghardt/.local/bin/pkgconf"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/pkg-config"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/pkgconf"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/pkg-config"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/pkgconf"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/pkg-config"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/pkgconf"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/pkg-config"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/pkgconf"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/pkg-config"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/pkgconf"
+      - "/opt/homebrew/bin/pkg-config"
+      - "/opt/homebrew/bin/pkgconf"
+      - "/opt/homebrew/sbin/pkg-config"
+      - "/opt/homebrew/sbin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+      - "/System/Cryptexes/App/usr/bin/pkg-config"
+      - "/System/Cryptexes/App/usr/bin/pkgconf"
+      - "/usr/bin/pkg-config"
+      - "/usr/bin/pkgconf"
+      - "/bin/pkg-config"
+      - "/bin/pkgconf"
+      - "/usr/sbin/pkg-config"
+      - "/usr/sbin/pkgconf"
+      - "/sbin/pkg-config"
+      - "/sbin/pkgconf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pkg-config"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/pkgconf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pkg-config"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/pkgconf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pkg-config"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pkgconf"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/pkg-config"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/pkgconf"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/pkg-config"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/pkgconf"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/pkg-config"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/pkgconf"
+      - "/opt/homebrew/bin/pkg-config"
+      - "/opt/homebrew/bin/pkgconf"
+      - "/opt/homebrew/sbin/pkg-config"
+      - "/opt/homebrew/sbin/pkgconf"
+      - "/opt/homebrew/pkg-config"
+      - "/opt/homebrew/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+      - "/usr/local/sbin/pkg-config"
+      - "/usr/local/sbin/pkgconf"
+      - "/usr/local/pkg-config"
+      - "/usr/local/pkgconf"
+      - "/usr/bin/pkg-config"
+      - "/usr/bin/pkgconf"
+      - "/usr/sbin/pkg-config"
+      - "/usr/sbin/pkgconf"
+      - "/usr/pkg-config"
+      - "/usr/pkgconf"
+      - "/bin/pkg-config"
+      - "/bin/pkgconf"
+      - "/sbin/pkg-config"
+      - "/sbin/pkgconf"
+      - "/usr/X11R6/bin/pkg-config"
+      - "/usr/X11R6/bin/pkgconf"
+      - "/usr/X11R6/sbin/pkg-config"
+      - "/usr/X11R6/sbin/pkgconf"
+      - "/usr/X11R6/pkg-config"
+      - "/usr/X11R6/pkgconf"
+      - "/usr/pkg/bin/pkg-config"
+      - "/usr/pkg/bin/pkgconf"
+      - "/usr/pkg/sbin/pkg-config"
+      - "/usr/pkg/sbin/pkgconf"
+      - "/usr/pkg/pkg-config"
+      - "/usr/pkg/pkgconf"
+      - "/opt/bin/pkg-config"
+      - "/opt/bin/pkgconf"
+      - "/opt/sbin/pkg-config"
+      - "/opt/sbin/pkgconf"
+      - "/opt/pkg-config"
+      - "/opt/pkgconf"
+      - "/sw/bin/pkg-config"
+      - "/sw/bin/pkgconf"
+      - "/sw/sbin/pkg-config"
+      - "/sw/sbin/pkgconf"
+      - "/sw/pkg-config"
+      - "/sw/pkgconf"
+      - "/opt/local/bin/pkg-config"
+      - "/opt/local/bin/pkgconf"
+      - "/opt/local/sbin/pkg-config"
+      - "/opt/local/sbin/pkgconf"
+      - "/opt/local/pkg-config"
+      - "/opt/local/pkgconf"
+      - "/Applications/pkg-config"
+      - "/Applications/pkgconf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Applications"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenSSL.cmake:370 (find_path)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "path"
+    variable: "OPENSSL_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openssl/ssl.h"
+    candidate_directories:
+      - "/opt/homebrew/opt/openssl@3/include/"
+      - "/opt/homebrew/opt/openssl@3/"
+    searched_directories:
+      - "/opt/homebrew/opt/openssl@3/include/openssl.framework/Headers/ssl.h"
+      - "/opt/homebrew/opt/openssl@3/openssl.framework/Headers/ssl.h"
+    found: "/opt/homebrew/opt/openssl@3/include/"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenSSL.cmake:628 (find_library)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_SSL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ssl"
+      - "ssleay32"
+      - "ssleay32MD"
+    candidate_directories:
+      - "/opt/homebrew/opt/openssl@3/lib/"
+      - "/opt/homebrew/opt/openssl@3/"
+    found: "/opt/homebrew/opt/openssl@3/lib/libssl.dylib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenSSL.cmake:642 (find_library)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_CRYPTO_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "crypto"
+    candidate_directories:
+      - "/opt/homebrew/opt/openssl@3/lib/"
+      - "/opt/homebrew/opt/openssl@3/"
+    found: "/opt/homebrew/opt/openssl@3/lib/libcrypto.dylib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindSQLite3.cmake:67 (find_path)"
+      - "CMakeLists.txt:11 (find_package)"
+    mode: "path"
+    variable: "SQLite3_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sqlite3.h"
+    candidate_directories:
+      - "/Users/martynaburghardt/.local/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/"
+      - "/Users/martynaburghardt/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/Users/martynaburghardt/.local/bin/sqlite3.h"
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/sqlite3.h"
+      - "/Users/martynaburghardt/Library/Python/3.13/bin/sqlite3.h"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/sqlite3.h"
+      - "/Users/martynaburghardt/Library/Python/3.13.2/bin/sqlite3.h"
+      - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin/sqlite3.h"
+      - "/opt/homebrew/bin/sqlite3.h"
+      - "/opt/homebrew/sbin/sqlite3.h"
+      - "/usr/local/bin/sqlite3.h"
+      - "/System/Cryptexes/App/usr/bin/sqlite3.h"
+      - "/usr/bin/sqlite3.h"
+      - "/bin/sqlite3.h"
+      - "/usr/sbin/sqlite3.h"
+      - "/sbin/sqlite3.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/sqlite3.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/sqlite3.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/sqlite3.h"
+    found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindSQLite3.cmake:74 (find_library)"
+      - "CMakeLists.txt:11 (find_package)"
+    mode: "library"
+    variable: "SQLite3_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sqlite3"
+      - "sqlite"
+    candidate_directories:
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libsqlite3.tbd"
+    search_context:
+      ENV{PATH}:
+        - "/Users/martynaburghardt/.local/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/martynaburghardt/Library/Python/3.13.2/bin"
+        - "/Applications/Julia-1.9.app/Contents/Resources/julia/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+...
