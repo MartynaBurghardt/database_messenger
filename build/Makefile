@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/martynaburghardt/chat
+CMAKE_SOURCE_DIR = /Users/martynaburghardt/Desktop/chat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/martynaburghardt/chat/build
+CMAKE_BINARY_DIR = /Users/martynaburghardt/Desktop/chat/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martynaburghardt/chat/build/CMakeFiles /Users/martynaburghardt/chat/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martynaburghardt/Desktop/chat/build/CMakeFiles /Users/martynaburghardt/Desktop/chat/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martynaburghardt/chat/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/martynaburghardt/Desktop/chat/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,29 +142,29 @@ client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
 .PHONY : client/fast
 
-client/main.o: client/main.cpp.o
-.PHONY : client/main.o
+client/client.o: client/client.cpp.o
+.PHONY : client/client.o
 
 # target to build an object file
-client/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/main.cpp.o
-.PHONY : client/main.cpp.o
+client/client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cpp.o
+.PHONY : client/client.cpp.o
 
-client/main.i: client/main.cpp.i
-.PHONY : client/main.i
+client/client.i: client/client.cpp.i
+.PHONY : client/client.i
 
 # target to preprocess a source file
-client/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/main.cpp.i
-.PHONY : client/main.cpp.i
+client/client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cpp.i
+.PHONY : client/client.cpp.i
 
-client/main.s: client/main.cpp.s
-.PHONY : client/main.s
+client/client.s: client/client.cpp.s
+.PHONY : client/client.s
 
 # target to generate assembly for a file
-client/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/main.cpp.s
-.PHONY : client/main.cpp.s
+client/client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cpp.s
+.PHONY : client/client.cpp.s
 
 server/db/Database.o: server/db/Database.cpp.o
 .PHONY : server/db/Database.o
@@ -238,29 +238,29 @@ server/net/Session.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server/net/Session.cpp.s
 .PHONY : server/net/Session.cpp.s
 
-server/net/TcpServer.o: server/net/TcpServer.cpp.o
-.PHONY : server/net/TcpServer.o
+server/net/Tcpserver.o: server/net/Tcpserver.cpp.o
+.PHONY : server/net/Tcpserver.o
 
 # target to build an object file
-server/net/TcpServer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server/net/TcpServer.cpp.o
-.PHONY : server/net/TcpServer.cpp.o
+server/net/Tcpserver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server/net/Tcpserver.cpp.o
+.PHONY : server/net/Tcpserver.cpp.o
 
-server/net/TcpServer.i: server/net/TcpServer.cpp.i
-.PHONY : server/net/TcpServer.i
+server/net/Tcpserver.i: server/net/Tcpserver.cpp.i
+.PHONY : server/net/Tcpserver.i
 
 # target to preprocess a source file
-server/net/TcpServer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server/net/TcpServer.cpp.i
-.PHONY : server/net/TcpServer.cpp.i
+server/net/Tcpserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server/net/Tcpserver.cpp.i
+.PHONY : server/net/Tcpserver.cpp.i
 
-server/net/TcpServer.s: server/net/TcpServer.cpp.s
-.PHONY : server/net/TcpServer.s
+server/net/Tcpserver.s: server/net/Tcpserver.cpp.s
+.PHONY : server/net/Tcpserver.s
 
 # target to generate assembly for a file
-server/net/TcpServer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server/net/TcpServer.cpp.s
-.PHONY : server/net/TcpServer.cpp.s
+server/net/Tcpserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server/net/Tcpserver.cpp.s
+.PHONY : server/net/Tcpserver.cpp.s
 
 # Help Target
 help:
@@ -272,9 +272,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... client"
 	@echo "... server"
-	@echo "... client/main.o"
-	@echo "... client/main.i"
-	@echo "... client/main.s"
+	@echo "... client/client.o"
+	@echo "... client/client.i"
+	@echo "... client/client.s"
 	@echo "... server/db/Database.o"
 	@echo "... server/db/Database.i"
 	@echo "... server/db/Database.s"
@@ -284,9 +284,9 @@ help:
 	@echo "... server/net/Session.o"
 	@echo "... server/net/Session.i"
 	@echo "... server/net/Session.s"
-	@echo "... server/net/TcpServer.o"
-	@echo "... server/net/TcpServer.i"
-	@echo "... server/net/TcpServer.s"
+	@echo "... server/net/Tcpserver.o"
+	@echo "... server/net/Tcpserver.i"
+	@echo "... server/net/Tcpserver.s"
 .PHONY : help
 
 

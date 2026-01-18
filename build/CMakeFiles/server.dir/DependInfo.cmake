@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/martynaburghardt/chat/server/db/Database.cpp" "CMakeFiles/server.dir/server/db/Database.cpp.o" "gcc" "CMakeFiles/server.dir/server/db/Database.cpp.o.d"
-  "/Users/martynaburghardt/chat/server/main.cpp" "CMakeFiles/server.dir/server/main.cpp.o" "gcc" "CMakeFiles/server.dir/server/main.cpp.o.d"
-  "/Users/martynaburghardt/chat/server/net/Session.cpp" "CMakeFiles/server.dir/server/net/Session.cpp.o" "gcc" "CMakeFiles/server.dir/server/net/Session.cpp.o.d"
-  "/Users/martynaburghardt/chat/server/net/TcpServer.cpp" "CMakeFiles/server.dir/server/net/TcpServer.cpp.o" "gcc" "CMakeFiles/server.dir/server/net/TcpServer.cpp.o.d"
+  "/Users/martynaburghardt/Desktop/chat/server/db/Database.cpp" "CMakeFiles/server.dir/server/db/Database.cpp.o" "gcc" "CMakeFiles/server.dir/server/db/Database.cpp.o.d"
+  "/Users/martynaburghardt/Desktop/chat/server/main.cpp" "CMakeFiles/server.dir/server/main.cpp.o" "gcc" "CMakeFiles/server.dir/server/main.cpp.o.d"
+  "/Users/martynaburghardt/Desktop/chat/server/net/Session.cpp" "CMakeFiles/server.dir/server/net/Session.cpp.o" "gcc" "CMakeFiles/server.dir/server/net/Session.cpp.o.d"
+  "/Users/martynaburghardt/Desktop/chat/server/net/Tcpserver.cpp" "CMakeFiles/server.dir/server/net/Tcpserver.cpp.o" "gcc" "CMakeFiles/server.dir/server/net/Tcpserver.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

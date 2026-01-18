@@ -1,6 +1,6 @@
-CMakeFiles/server.dir/server/net/TcpServer.cpp.o: \
-  /Users/martynaburghardt/chat/server/net/TcpServer.cpp \
-  /Users/martynaburghardt/chat/server/net/TcpServer.hpp \
+CMakeFiles/server.dir/server/net/Tcpserver.cpp.o: \
+  /Users/martynaburghardt/Desktop/chat/server/net/Tcpserver.cpp \
+  /Users/martynaburghardt/Desktop/chat/server/net/TcpServer.hpp \
   /opt/homebrew/include/boost/asio.hpp \
   /opt/homebrew/include/boost/asio/any_completion_executor.hpp \
   /opt/homebrew/include/boost/asio/detail/config.hpp \
@@ -1386,6 +1386,6 @@ CMakeFiles/server.dir/server/net/TcpServer.cpp.o: \
   /opt/homebrew/include/boost/asio/ssl/detail/read_op.hpp \
   /opt/homebrew/include/boost/asio/ssl/detail/shutdown_op.hpp \
   /opt/homebrew/include/boost/asio/ssl/detail/write_op.hpp \
-  /Users/martynaburghardt/chat/server/net/../db/Database.hpp \
+  /Users/martynaburghardt/Desktop/chat/server/net/../db/Database.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sqlite3.h \
-  /Users/martynaburghardt/chat/server/net/Session.hpp
+  /Users/martynaburghardt/Desktop/chat/server/net/Session.hpp

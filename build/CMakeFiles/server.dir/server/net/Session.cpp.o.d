@@ -1,6 +1,6 @@
 CMakeFiles/server.dir/server/net/Session.cpp.o: \
-  /Users/martynaburghardt/chat/server/net/Session.cpp \
-  /Users/martynaburghardt/chat/server/net/Session.hpp \
+  /Users/martynaburghardt/Desktop/chat/server/net/Session.cpp \
+  /Users/martynaburghardt/Desktop/chat/server/net/Session.hpp \
   /opt/homebrew/include/boost/asio.hpp \
   /opt/homebrew/include/boost/asio/any_completion_executor.hpp \
   /opt/homebrew/include/boost/asio/detail/config.hpp \
@@ -1386,7 +1386,7 @@ CMakeFiles/server.dir/server/net/Session.cpp.o: \
   /opt/homebrew/include/boost/asio/ssl/detail/read_op.hpp \
   /opt/homebrew/include/boost/asio/ssl/detail/shutdown_op.hpp \
   /opt/homebrew/include/boost/asio/ssl/detail/write_op.hpp \
-  /Users/martynaburghardt/chat/server/net/../db/Database.hpp \
+  /Users/martynaburghardt/Desktop/chat/server/net/../db/Database.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sqlite3.h \
   /opt/homebrew/include/nlohmann/json.hpp \
   /opt/homebrew/include/nlohmann/adl_serializer.hpp \

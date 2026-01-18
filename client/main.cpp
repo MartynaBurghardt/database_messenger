@@ -29,20 +29,19 @@ public:
     }
 
     void send(const json& j) {
-        write(j.dump());
-    }
-
-private:
-    void write(const std::string& msg) {
+        std::string msg = j.dump();
         uint32_t len = htonl(static_cast<uint32_t>(msg.size()));
         std::vector<boost::asio::const_buffer> buffers{
             boost::asio::buffer(&len, 4),
             boost::asio::buffer(msg)
         };
         boost::asio::async_write(stream_, buffers,
-            [](boost::system::error_code, std::size_t) {});
+            [](boost::system::error_code ec, std::size_t) {
+                if (ec) std::cerr << "Send error: " << ec.message() << "\n";
+            });
     }
 
+private:
     void read_header() {
         boost::asio::async_read(stream_, boost::asio::buffer(header_),
             [this](boost::system::error_code ec, std::size_t) {
@@ -51,6 +50,8 @@ private:
                     std::memcpy(&len, header_.data(), 4);
                     len = ntohl(len);
                     read_body(len);
+                } else {
+                    std::cout << "Disconnected from server.\n";
                 }
             });
     }
@@ -60,7 +61,28 @@ private:
         boost::asio::async_read(stream_, boost::asio::buffer(body_),
             [this](boost::system::error_code ec, std::size_t) {
                 if (!ec) {
-                    std::cout << "< " << std::string(body_.begin(), body_.end()) << "\n";
+                    std::string s(body_.begin(), body_.end());
+                    try {
+                        json res = json::parse(s);
+                        if (res["type"] == "stats") {
+                            std::cout << "\n[STATYSTYKI]: " << res.value("data", "brak danych") << "\n";
+                        } else if (res["type"] == "message") {
+                            std::cout << "\n[" << res.value("from", "unknown") << "]: " 
+                                      << res.value("message", "") << " (" << res.value("ts", "") << ")\n";
+                        } else if (res["type"] == "history") {
+                            std::cout << "\n--- HISTORIA WIADOMOSCI ---\n";
+                            for (auto& m : res["messages"]) {
+                                std::cout << "[" << m.value("ts", "") << "] " 
+                                          << m.value("from", "") << " -> " 
+                                          << m.value("to", "") << ": " 
+                                          << m.value("message", "") << "\n";
+                            }
+                        } else {
+                            std::cout << "\n[SERWER]: " << res.dump() << "\n";
+                        }
+                    } catch (...) {
+                        std::cout << "\n[RAW]: " << s << "\n";
+                    }
                     read_header();
                 }
             });
@@ -80,42 +102,36 @@ int main() {
 
         std::thread net([&]() { io.run(); });
 
-        std::cout << "Commands:\n";
-        std::cout << "/register user pass\n";
-        std::cout << "/login user pass\n";
-        std::cout << "/ping\n";
-        std::cout << "/send user message\n";
-        std::cout << "/history\n";
-        std::cout << "/quit\n\n";
+        std::cout << "Zaloguj sie, aby korzystac z komunikatora.\n";
+        std::cout << "Komendy: /register <u装 <p>, /login <u装 <p>, /stats, /send <u装 <msg>, /history, /quit\n\n";
 
         std::string line;
         while (std::getline(std::cin, line)) {
             if (line == "/quit") break;
+            if (line.empty()) continue;
 
             std::istringstream iss(line);
             std::string cmd;
             iss >> cmd;
 
             json j;
-
-            if (cmd == "/register") {
+            if (cmd == "/register" || cmd == "/login") {
                 std::string user, pass;
-                iss >> user >> pass;
-                j["type"] = "register";
+                if (!(iss >> user >> pass)) {
+                    std::cout << "Uzycie: " << cmd << " <user> <pass>\n";
+                    continue;
+                }
+                j["type"] = (cmd == "/register" ? "register" : "login");
                 j["username"] = user;
                 j["password"] = pass;
-            } else if (cmd == "/login") {
-                std::string user, pass;
-                iss >> user >> pass;
-                j["type"] = "login";
-                j["username"] = user;
-                j["password"] = pass;
-            } else if (cmd == "/ping") {
-                j["type"] = "ping";
+            } else if (cmd == "/stats") {
+                j["type"] = "stats";
             } else if (cmd == "/send") {
-                std::string to;
-                iss >> to;
-                std::string msg;
+                std::string to, msg;
+                if (!(iss >> to)) {
+                    std::cout << "Uzycie: /send <user> <wiadomosc>\n";
+                    continue;
+                }
                 std::getline(iss, msg);
                 if (!msg.empty() && msg[0] == ' ') msg.erase(0, 1);
                 j["type"] = "send";
@@ -123,18 +139,19 @@ int main() {
                 j["message"] = msg;
             } else if (cmd == "/history") {
                 j["type"] = "history";
+            } else if (cmd == "/ping") {
+                j["type"] = "ping";
             } else {
-                std::cout << "Unknown command\n";
+                std::cout << "Nieznana komenda.\n";
                 continue;
             }
-
             client.send(j);
         }
 
         io.stop();
-        net.join();
+        if (net.joinable()) net.join();
     } catch (const std::exception& e) {
-        std::cerr << "Client error: " << e.what() << "\n";
+        std::cerr << "Blad klienta: " << e.what() << "\n";
     }
+    return 0;
 }
-

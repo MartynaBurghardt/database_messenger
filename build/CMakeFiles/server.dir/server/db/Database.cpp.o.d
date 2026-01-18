@@ -1,6 +1,6 @@
 CMakeFiles/server.dir/server/db/Database.cpp.o: \
-  /Users/martynaburghardt/chat/server/db/Database.cpp \
-  /Users/martynaburghardt/chat/server/db/Database.hpp \
+  /Users/martynaburghardt/Desktop/chat/server/db/Database.cpp \
+  /Users/martynaburghardt/Desktop/chat/server/db/Database.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sqlite3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \

@@ -1,0 +1,6 @@
+build/
+bin/
+*.db
+*.log
+.DS_Store
+certs/server.key

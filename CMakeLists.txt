@@ -1,36 +1,37 @@
-cmake_minimum_required(VERSION 3.16)
-cmake_policy(SET CMP0167 NEW)
-
-project(chat LANGUAGES CXX)
+cmake_minimum_required(VERSION 3.10)
+project(ChatProject)
 
 set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Boost REQUIRED)
+# Szukanie pakietów
 find_package(OpenSSL REQUIRED)
 find_package(SQLite3 REQUIRED)
+find_package(Threads REQUIRED)
 
-add_executable(server
-    server/main.cpp
-    server/net/TcpServer.cpp
-    server/net/Session.cpp
+# Wyświetl debug (opcjonalne, pomoże sprawdzić ścieżki)
+message(STATUS "SQLite3 include: ${SQLITE3_INCLUDE_DIRS}")
+message(STATUS "SQLite3 libs: ${SQLITE3_LIBRARIES}")
+
+include_directories(${OPENSSL_INCLUDE_DIR} ${SQLITE3_INCLUDE_DIRS})
+
+# Serwer
+add_executable(server 
+    server/main.cpp 
+    server/net/Tcpserver.cpp 
+    server/net/Session.cpp 
     server/db/Database.cpp
 )
-
-target_link_libraries(server
-    Boost::headers
-    OpenSSL::Crypto
-    SQLite::SQLite3
-    OpenSSL::SSL
+# Dodaliśmy bezpośrednią zmienną SQLite3_LIBRARIES
+target_link_libraries(server 
+    ${OPENSSL_LIBRARIES} 
+    ${SQLITE3_LIBRARIES} 
+    sqlite3 
+    Threads::Threads
 )
 
-add_executable(client
-    client/main.cpp
+# Klient
+add_executable(client client/client.cpp)
+target_link_libraries(client 
+    ${OPENSSL_LIBRARIES} 
+    Threads::Threads
 )
-
-target_link_libraries(client
-    Boost::headers
-    OpenSSL::SSL
-    OpenSSL::Crypto
-)
-

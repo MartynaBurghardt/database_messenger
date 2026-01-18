@@ -1,4 +1,4 @@
-/Users/martynaburghardt/chat/build/CMakeFiles/server.dir
-/Users/martynaburghardt/chat/build/CMakeFiles/client.dir
-/Users/martynaburghardt/chat/build/CMakeFiles/edit_cache.dir
-/Users/martynaburghardt/chat/build/CMakeFiles/rebuild_cache.dir
+/Users/martynaburghardt/Desktop/chat/build/CMakeFiles/server.dir
+/Users/martynaburghardt/Desktop/chat/build/CMakeFiles/client.dir
+/Users/martynaburghardt/Desktop/chat/build/CMakeFiles/edit_cache.dir
+/Users/martynaburghardt/Desktop/chat/build/CMakeFiles/rebuild_cache.dir
