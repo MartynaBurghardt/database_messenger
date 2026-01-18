@@ -1388,4 +1388,5 @@ CMakeFiles/server.dir/server/net/Tcpserver.cpp.o: \
   /opt/homebrew/include/boost/asio/ssl/detail/write_op.hpp \
   /Users/martynaburghardt/Desktop/chat/server/net/../db/Database.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sqlite3.h \
-  /Users/martynaburghardt/Desktop/chat/server/net/Session.hpp
+  /Users/martynaburghardt/Desktop/chat/server/net/Session.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream
